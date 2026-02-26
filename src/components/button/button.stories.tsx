@@ -95,7 +95,7 @@ export const FullWidth: Story = {
   parameters: {
     layout: 'fullscreen',
   },
-  render: args => (
+  render: (args: any) => (
     <div
       style={{
         alignItems: 'center',
